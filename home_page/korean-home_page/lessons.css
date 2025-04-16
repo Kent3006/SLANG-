@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000 ;
+    display: flex;
+    background-color: #1e1e1e;
+    color: white;
+}
+  
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 185px;
+    height: 1050px;
+    background-color: #0d141c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.logo {
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: -47px;
+    margin-top: -7px;
+}
+  
+.nav-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #0d141c;
+    border-radius: 10px;
+    padding: 7px;
+    background-position: fixed;
+}
+
+.nav-item2 {
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #222e3b;
+    border-radius: 10px;
+    padding: 7px;
+    background-position: fixed;
+}
+
+.nav-item1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 27px;
+    background-color: #0077ff;
+    border-radius: 15px;
+    padding: 20px;
+    background-position: fixed;
+}
+
+.nav-item1:hover {
+    background-color: #005ac2;
+}
+  
+.nav-item:hover {
+    background-color: #121f2b;
+}
+  
+/* Main content */
+.main {
+    flex: 1;
+    padding: 50px;
+}
+
+.main h2 {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 37px;
+}
+
+.main p {
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+a h2 {
+    background-color: #ffbf00;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    background: transparent;
+}
+
+a p {
+    background-color: #ffbf00;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.lessons {
+    background-color: #ffbf00;
+    border-radius: 20px;
+    border: 7px solid #d76100;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lessons2 {
+    background-color: #0b9e00;
+    border-radius: 20px;
+    border: 7px solid #126500;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lessons3 {
+    background-color: #ff00a6;
+    border-radius: 20px;
+    border: 7px solid #920066;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lessons4 {
+    background-color: #00a2ff;
+    border-radius: 20px;
+    border: 7px solid #00569d;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lessons5 {
+    background-color: #ff0000;
+    border-radius: 20px;
+    border: 7px solid #540000;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lockedlesson {
+    background-color: #5b5b5b;
+    border-radius: 20px;
+    border: 7px solid #383838;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lessons:hover {
+    transform: translateY(-5px);
+}
+
+.lessons2:hover {
+    transform: translateY(-5px);
+}
+
+.lessons3:hover {
+    transform: translateY(-5px);
+}
+
+.lessons4:hover {
+    transform: translateY(-5px);
+}
+
+.lessons5:hover {
+    transform: translateY(-5px);
+}
+
+.return {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background-position: fixed;
+    transition: 0.2s ease;
+}
+
+.return:hover {
+    color: #ff8800;
+}
+
+/* Right panel */
+.side-panel {
+    width: 340px;
+    background-color: #1a2a3b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.card {
+    background-color: #243646;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    font-size: 15px;
+}
+  
+.card h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 15px;
+}
+  
+progress {
+    width: 100%;
+    height: 10px;
+}

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000 ;
+    display: flex;
+    background-color: #1e1e1e;
+    color: white;
+}
+  
+.container {
+    display: flex;
+    width: 100%;
+}
+  
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 1050px;
+    background-color: #0d141c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    position: fixed;
+}
+
+.logo {
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: -48px;
+    margin-top: -8px;
+}
+  
+.nav-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #0d141c;
+    border-radius: 20px;
+    padding: 10px;
+    background-position: fixed;
+}
+
+.nav-item1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #0077ff;
+    border-radius: 15px;
+    padding: 20px;
+    background-position: fixed;
+}
+
+.nav-item1:hover {
+    background-color: #005ac2;
+}
+  
+.nav-item:hover {
+    background-color: #121f2b;
+}
+  
+/* Main content */
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.head {
+    background-color: #ffbf00;
+    padding: auto;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 25px;
+    width: 850px;
+    margin-left: 220px;
+    
+}
+
+.head h2 {
+    margin-top: -65px;
+    margin-left: 70px;
+    font-size: 37px;
+}
+
+.head p {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.return {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background-position: fixed;
+    transition: 0.2s ease;
+}
+
+.return:hover {
+    color: #ff8800;
+}
+  
+.lesson-path {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 250px;
+}
+  
+.lesson {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: transform 0.1s;
+    gap: 10px;
+}
+
+.lesson.active {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lesson.active:hover {
+    transform: translateY(-20px);
+}
+
+.lesson.active img {
+    width: 165px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.lesson.active1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lesson.active1:hover {
+    transform: translateY(-20px);
+}
+
+.lesson.active1 img {
+    width: 165px;
+    height: auto;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.lesson.locked2 {
+    justify-content: center;
+}
+
+.lesson.locked2 img {
+    width: 165px;
+    height: auto;
+    margin-left: 900px;
+    margin-top: 350px;
+}
+
+.lesson.locked3 {
+    justify-content: center;
+}
+
+.lesson.locked3 img {
+    width: 165px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: 650px;
+}
+
+.next.lesson {
+    justify-content: center;
+}
+
+.next.lesson img {
+    width: 165px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: 800px;
+}
+  
+/* Right panel */
+.side-panel {
+    width: 300px;
+    background-color: #1a2a3b;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    margin-left: 1170px;
+    height: 1050px;
+}
+  
+.card {
+    background-color: #243646;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.card h2 {
+    margin: 0 0 10px;
+}
+
+progress {
+    width: 100%;
+    height: 10px;
+}
+  

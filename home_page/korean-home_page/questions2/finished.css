@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000 ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.questions1 h2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #0ea5e9;
+    color: #ffffff;
+}
+
+.questions1 p:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #0ea5e9;
+    color: #ffffff;
+}
+
+.questions1 p {
+    background-color: #ffffff;
+    border: 5px #0ea5e9 solid;
+    width: 70%;
+    height: 120px;
+    padding: 37px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    gap: 110px;
+    flex-direction: column;
+    transition: transform 0.4s ease;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.questions1 h2 {
+    background-color: #ddd;
+    border: 5px #0ea5e9 solid;
+    width: 70%;
+    height: 120px;
+    padding: 37px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    gap: 110px;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.questions1 h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.progress-container {
+    width: 80%;
+    height: 13px;
+    background: #ddd;
+    border-radius: 10px;
+    position: center;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+  
+.progress-bar {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    background: #0ea5e9;
+    border-radius: 10px;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+  
+.progress-container .progress-bar { width: 100%; }
